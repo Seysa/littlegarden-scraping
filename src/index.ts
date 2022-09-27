@@ -1,9 +1,18 @@
 import puppeteer from "puppeteer-core";
-import { join } from "path";
+import { join } from "path/posix";
 
 const website = "https://littlexgarden.com/";
 
-(async () => {
+function getLink(manga: string, chapter?: number, page?: number) {
+  let result = website + join(manga);
+  if (chapter !== undefined) result = join(result, chapter.toString());
+  if (page !== undefined) result = join(result, page.toString());
+  return result;
+}
+
+main();
+
+async function main() {
   const browser = await puppeteer.launch({
     headless: false,
     defaultViewport: null,
@@ -35,16 +44,13 @@ const website = "https://littlexgarden.com/";
 
   // block notification popup
   const context = browser.defaultBrowserContext();
-  context.overridePermissions("https://littlexgarden.com/", ["notifications"]);
+  context.overridePermissions(website, ["notifications"]);
 
   const page = await browser.newPage();
   console.log("-- going to page");
-  await page.goto("https://littlexgarden.com/one-piece/1/", {
+  await page.goto(getLink("one-piece", 1), {
     waitUntil: "networkidle0",
   });
-
-  console.log("-- waiting for img");
-  await page.waitForSelector("img");
 
   console.log("-- getting imgs");
   const images = await getImages();
@@ -54,4 +60,4 @@ const website = "https://littlexgarden.com/";
     await browser.close();
     console.log("Closing program");
   });
-})();
+}
