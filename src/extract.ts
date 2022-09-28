@@ -4,7 +4,7 @@ import { Page } from "puppeteer-core";
 // param can be sync or async
 export function doUntil(
   fun: (resolve: any, reject: any) => Promise<void> | void
-) {
+): any {
   return new Promise((resolve, reject) => {
     const customResolve = (param: any) => {
       clearInterval(interval);
@@ -55,8 +55,8 @@ export function getImagesFromPage(page: Page) {
   });
 }
 
-export async function getCurrentImageSrc(page: Page) {
-  const result = await doUntil(async (resolve, reject) => {
+export async function getCurrentImageSrc(page: Page): Promise<string> {
+  const result: string = await doUntil(async (resolve, reject) => {
     const src = await page.evaluate(() => {
       const img = document.querySelector("#curr > img") as
         | HTMLImageElement
