@@ -1,7 +1,7 @@
 import puppeteer, { Browser, Page, WaitForOptions } from "puppeteer-core";
 import { blockNotifications } from "./browser";
 import { getCurrentImageSrc } from "./extract";
-import { getLink } from "./link";
+import { getFilenameAndMakePath, getLink } from "./link";
 import fs from "fs/promises";
 
 const navigateToMangaPage = async (
@@ -47,8 +47,8 @@ async function downloadChapter(
   let currentPageNumber = 1;
   const page = await navigateToMangaPage(
     browser,
-    "one-piece",
-    1,
+    manga,
+    chapter,
     currentPageNumber
   );
   const nextPageButton = await page.$("#touch > div:nth-child(2)");
@@ -66,6 +66,11 @@ async function downloadChapter(
   for (; currentPageNumber < pages; currentPageNumber++) {
     const src = await getCurrentImageSrc(page);
     console.log(currentPageNumber, src);
+    await downloadImage(
+      browser,
+      src,
+      getFilenameAndMakePath(manga, chapter, currentPageNumber)
+    );
     srcs.push(src);
     await nextPageButton.click();
   }
@@ -83,12 +88,14 @@ async function downloadImage(browser: Browser, url: string, filename: string) {
     console.log("file", filename, "was succesfully saved");
   } catch (e) {
     console.error("error during the download of", filename, ":", e);
+  } finally {
+    page.close();
   }
 }
 
 async function main() {
   const browser = await puppeteer.launch({
-    headless: false,
+    headless: true,
     defaultViewport: null,
     executablePath:
       "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
@@ -96,12 +103,7 @@ async function main() {
   blockNotifications(browser);
   console.log("--- Browser instanciated");
 
-  downloadImage(
-    browser,
-    "https://littlexgarden.com/static/images/webp/dd00a01b-d1d0-43f6-9474-186a6e5807ca.jpg.webp",
-    "test.webp"
-  );
-
-  const srcs = await downloadChapter(browser, "one-piece", 1);
+  const srcs = await downloadChapter(browser, "one-piece", 2);
   console.log(srcs);
+  await browser.close();
 }
