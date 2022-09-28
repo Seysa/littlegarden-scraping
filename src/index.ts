@@ -1,7 +1,8 @@
 import puppeteer, { Browser, Page, WaitForOptions } from "puppeteer-core";
 import { blockNotifications } from "./browser";
-import { getCurrentImageSrc, getImagesFromPage } from "./extract";
+import { getCurrentImageSrc } from "./extract";
 import { getLink } from "./link";
+import fs from "fs/promises";
 
 const navigateToMangaPage = async (
   browser: Browser,
@@ -61,10 +62,27 @@ async function downloadChapter(
     );
   }
   const srcs: string[] = [];
-  for (; currentPageNumber <= pages; currentPageNumber++) {
+  // < pages because last page is not an image
+  for (; currentPageNumber < pages; currentPageNumber++) {
     const src = await getCurrentImageSrc(page);
+    console.log(currentPageNumber, src);
     srcs.push(src);
     await nextPageButton.click();
+  }
+  return srcs;
+}
+
+async function downloadImage(browser: Browser, url: string, filename: string) {
+  const page = await browser.newPage();
+  const viewSource = await page.goto(url);
+  if (!viewSource) {
+    throw new Error("No viewsource for " + url);
+  }
+  try {
+    await fs.writeFile(filename, await viewSource.buffer());
+    console.log("file", filename, "was succesfully saved");
+  } catch (e) {
+    console.error("error during the download of", filename, ":", e);
   }
 }
 
@@ -78,12 +96,12 @@ async function main() {
   blockNotifications(browser);
   console.log("--- Browser instanciated");
 
-  const page = await navigateToMangaPage(browser, "one-piece", 1, 1);
-  const pages = await getNumberOfPagesOfChapter(page);
-  console.log("there is", pages, "pages");
-  const imgSrc = await getCurrentImageSrc(page);
-  console.log("current image src is", imgSrc);
-  const nextPage = await page.$("#touch > div:nth-child(2)");
-  await nextPage?.click();
-  console.log("next page is", await getCurrentImageSrc(page));
+  downloadImage(
+    browser,
+    "https://littlexgarden.com/static/images/webp/dd00a01b-d1d0-43f6-9474-186a6e5807ca.jpg.webp",
+    "test.webp"
+  );
+
+  const srcs = await downloadChapter(browser, "one-piece", 1);
+  console.log(srcs);
 }
