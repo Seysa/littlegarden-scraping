@@ -1,15 +1,41 @@
-import puppeteer from "puppeteer-core";
-import { join } from "path/posix";
+import puppeteer, { Browser, Page, WaitForOptions } from "puppeteer-core";
+import { blockNotifications } from "./browser";
+import { getCurrentImageSrc, getImagesFromPage, test } from "./extract";
+import { getLink } from "./link";
 
-const website = "https://littlexgarden.com/";
+const navigateToMangaPage = async (
+  browser: Browser,
+  manga: string,
+  chapter: number,
+  page: number
+) => {
+  const p = await browser.newPage();
+  const link = getLink(manga, chapter, page);
+  const options: WaitForOptions = {
+    waitUntil: "networkidle0",
+  };
+  await p.goto(link, options);
+  return p;
+};
 
-function getLink(manga: string, chapter?: number, page?: number) {
-  let result = website + join(manga);
-  if (chapter !== undefined) result = join(result, chapter.toString());
-  if (page !== undefined) result = join(result, page.toString());
-  return result;
-}
+const getNumberOfPagesOfChapter = async (page: Page) => {
+  const raw = await page.evaluate(() => {
+    return document.querySelector("div.total-pages")?.textContent;
+  });
+  if (!raw) {
+    throw new Error("Could not access total pages element, got " + raw);
+  }
+  // match a digit at least once
+  const match = raw.match(/[0-9]+/);
+  if (!match) {
+    throw new Error(
+      "No numbers found in match for total pages element, got " + raw
+    );
+  }
+  return match[0];
+};
 
+console.log("--- Starting");
 main();
 
 async function main() {
@@ -19,45 +45,12 @@ async function main() {
     executablePath:
       "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
   });
+  blockNotifications(browser);
+  console.log("--- Browser instanciated");
 
-  function getImages() {
-    return new Promise((resolve) => {
-      let images;
-      const interval = setInterval(async () => {
-        images = await page.evaluate(() => {
-          const imgs = document.querySelectorAll("img");
-          const sources = [imgs[0].src, imgs[1].src];
-          for (const source of sources) {
-            if (source === "") {
-              return [];
-            }
-          }
-          return sources;
-        });
-        if (images.length === 2) {
-          clearInterval(interval);
-          resolve(images);
-        }
-      }, 200);
-    });
-  }
-
-  // block notification popup
-  const context = browser.defaultBrowserContext();
-  context.overridePermissions(website, ["notifications"]);
-
-  const page = await browser.newPage();
-  console.log("-- going to page");
-  await page.goto(getLink("one-piece", 1), {
-    waitUntil: "networkidle0",
-  });
-
-  console.log("-- getting imgs");
-  const images = await getImages();
-  console.log("images are", images);
-
-  process.on("SIGINT", async () => {
-    await browser.close();
-    console.log("Closing program");
-  });
+  const page = await navigateToMangaPage(browser, "one-piece", 1, 3);
+  const pages = await getNumberOfPagesOfChapter(page);
+  console.log("there is", pages, "pages");
+  const imgSrc = await getCurrentImageSrc(page);
+  console.log("current image src is", imgSrc);
 }
