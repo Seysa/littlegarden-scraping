@@ -68,3 +68,20 @@ export async function getCurrentImageSrc(page: Page): Promise<string> {
   });
   return result;
 }
+
+export async function getNumberOfPagesOfChapter(page: Page) {
+  const raw = await page.evaluate(() => {
+    return document.querySelector("div.total-pages")?.textContent;
+  });
+  if (!raw) {
+    throw new Error("Could not access total pages element, got " + raw);
+  }
+  // match a digit at least once
+  const match = raw.match(/[0-9]+/);
+  if (!match) {
+    throw new Error(
+      "No numbers found in match for total pages element, got " + raw
+    );
+  }
+  return match[0];
+}
