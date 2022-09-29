@@ -30,5 +30,5 @@ export async function zipDirectories(
 export async function zipManga(manga: string, chapter: number) {
   const folderPath = getFolder(manga, chapter);
 
-  zipDirectories([folderPath], getCbz(manga, chapter));
+  return zipDirectories([folderPath], getCbz(manga, chapter));
 }

@@ -42,7 +42,7 @@ export async function downloadChapter(
     await nextPageButton.click();
   }
   await zipManga(manga, chapter);
-  rm(getFolder(manga, chapter), { recursive: true });
+  await rm(getFolder(manga, chapter), { recursive: true });
   return srcs;
 }
 

@@ -1,0 +1,294 @@
+yarn run v1.22.15
+$ yarn compile && node js
+$ tsc
+0.06 seconds # 0.06 seconds ## /usr/bin/google-chrome-stable
+0.062 seconds # 0.002 seconds ## --- Starting
+0.065 seconds # 0.003 seconds ## --- Done
+0.223 seconds # 0.158 seconds ## --- Browser instanciated
+4.582 seconds # 4.359 seconds ## 1 https://littlexgarden.com/static/images/webp/e798d18b-3d49-4c3c-b648-c910c6b20bb4.jpg.webp
+4.694 seconds # 0.112 seconds ## file manga/one-piece/0003/001.webp was succesfully saved
+4.94 seconds # 0.246 seconds ## 2 https://littlexgarden.com/static/images/webp/fc9339fe-12a9-42b7-baf5-dce2a88e643f.jpg.webp
+5.04 seconds # 0.1 seconds ## file manga/one-piece/0003/002.webp was succesfully saved
+5.366 seconds # 0.326 seconds ## 3 https://littlexgarden.com/static/images/webp/137c2564-8674-4693-9622-a8d779a63f8f.jpg.webp
+5.481 seconds # 0.115 seconds ## file manga/one-piece/0003/003.webp was succesfully saved
+5.798 seconds # 0.317 seconds ## 4 https://littlexgarden.com/static/images/webp/856cf8a2-8345-4009-b25a-ffc0017a415f.jpg.webp
+6.092 seconds # 0.294 seconds ## file manga/one-piece/0003/004.webp was succesfully saved
+6.363 seconds # 0.271 seconds ## 5 https://littlexgarden.com/static/images/webp/66fec162-b0b6-457e-95d9-995676592e1f.jpg.webp
+6.526 seconds # 0.163 seconds ## file manga/one-piece/0003/005.webp was succesfully saved
+6.755 seconds # 0.228 seconds ## 6 https://littlexgarden.com/static/images/webp/2042cd69-9c50-4659-88db-58bdd3540db6.jpg.webp
+6.959 seconds # 0.204 seconds ## file manga/one-piece/0003/006.webp was succesfully saved
+7.212 seconds # 0.253 seconds ## 7 https://littlexgarden.com/static/images/webp/eadb68bb-248b-4728-812a-9e19476a6073.jpg.webp
+7.336 seconds # 0.124 seconds ## file manga/one-piece/0003/007.webp was succesfully saved
+7.584 seconds # 0.248 seconds ## 8 https://littlexgarden.com/static/images/webp/307d8d07-4a07-4b21-a1f4-37d473d3eca4.jpg.webp
+7.757 seconds # 0.173 seconds ## file manga/one-piece/0003/008.webp was succesfully saved
+8.004 seconds # 0.247 seconds ## 9 https://littlexgarden.com/static/images/webp/cbc4f97e-7821-4037-8219-ceb73f6bde4b.jpg.webp
+8.163 seconds # 0.159 seconds ## file manga/one-piece/0003/009.webp was succesfully saved
+8.423 seconds # 0.26 seconds ## 10 https://littlexgarden.com/static/images/webp/97405720-fa1e-4d25-835b-f0fc76b817be.jpg.webp
+8.529 seconds # 0.106 seconds ## file manga/one-piece/0003/010.webp was succesfully saved
+8.81 seconds # 0.281 seconds ## 11 https://littlexgarden.com/static/images/webp/cb40c646-1a2c-4e6c-ac90-523c4332033b.jpg.webp
+9.008 seconds # 0.198 seconds ## file manga/one-piece/0003/011.webp was succesfully saved
+9.257 seconds # 0.249 seconds ## 12 https://littlexgarden.com/static/images/webp/07e01214-4367-4dde-8930-9f00bc24aa93.jpg.webp
+9.524 seconds # 0.267 seconds ## file manga/one-piece/0003/012.webp was succesfully saved
+9.783 seconds # 0.259 seconds ## 13 https://littlexgarden.com/static/images/webp/85277e17-cb6f-4cf3-bf03-0a4754246598.jpg.webp
+10.04 seconds # 0.257 seconds ## file manga/one-piece/0003/013.webp was succesfully saved
+10.305 seconds # 0.265 seconds ## 14 https://littlexgarden.com/static/images/webp/3977b66c-cd3c-4e69-a136-baa5491ac808.jpg.webp
+10.541 seconds # 0.236 seconds ## file manga/one-piece/0003/014.webp was succesfully saved
+10.772 seconds # 0.231 seconds ## 15 https://littlexgarden.com/static/images/webp/d915c5fb-884c-401f-90ca-2b20b9c6b017.jpg.webp
+10.877 seconds # 0.105 seconds ## file manga/one-piece/0003/015.webp was succesfully saved
+11.132 seconds # 0.255 seconds ## 16 https://littlexgarden.com/static/images/webp/0d65d1ea-f759-4880-95e9-7f7dbdefb4b6.jpg.webp
+11.236 seconds # 0.104 seconds ## file manga/one-piece/0003/016.webp was succesfully saved
+11.472 seconds # 0.236 seconds ## 17 https://littlexgarden.com/static/images/webp/67d7b8dc-1126-4205-8642-2d5b91ed07fc.jpg.webp
+11.592 seconds # 0.12 seconds ## file manga/one-piece/0003/017.webp was succesfully saved
+11.888 seconds # 0.296 seconds ## 18 https://littlexgarden.com/static/images/webp/4fb98988-8ebf-4cf2-914f-a8e02d5d0706.jpg.webp
+12.175 seconds # 0.287 seconds ## file manga/one-piece/0003/018.webp was succesfully saved
+12.406 seconds # 0.231 seconds ## 19 https://littlexgarden.com/static/images/webp/4eaa865f-1910-427d-9710-e625f4326004.jpg.webp
+12.657 seconds # 0.251 seconds ## file manga/one-piece/0003/019.webp was succesfully saved
+12.899 seconds # 0.242 seconds ## 20 https://littlexgarden.com/static/images/webp/99eee726-b4ef-4afb-acc5-cf71381788a8.jpg.webp
+13.233 seconds # 0.334 seconds ## file manga/one-piece/0003/020.webp was succesfully saved
+13.494 seconds # 0.261 seconds ## 21 https://littlexgarden.com/static/images/webp/dcd4cdb5-b3de-4e7e-8a85-ba2ef2237399.jpg.webp
+13.607 seconds # 0.113 seconds ## file manga/one-piece/0003/021.webp was succesfully saved
+13.833 seconds # 0.226 seconds ## 22 https://littlexgarden.com/static/images/webp/a02cfc00-d5db-4e65-a975-d10079df7897.jpg.webp
+13.932 seconds # 0.099 seconds ## file manga/one-piece/0003/022.webp was succesfully saved
+14.037 seconds # 0.105 seconds ## 22 images downloaded for chapter 3
+16.295 seconds # 2.258 seconds ## 1 https://littlexgarden.com/static/images/webp/76c6e2bb-2fd8-4628-bc44-748530488957.jpg.webp
+16.455 seconds # 0.16 seconds ## file manga/one-piece/0004/001.webp was succesfully saved
+16.691 seconds # 0.236 seconds ## 2 https://littlexgarden.com/static/images/webp/effcdb30-cc6b-4c48-9f36-80e9a7d378a1.jpg.webp
+17.061 seconds # 0.37 seconds ## file manga/one-piece/0004/002.webp was succesfully saved
+17.324 seconds # 0.263 seconds ## 3 https://littlexgarden.com/static/images/webp/2d01d418-1c49-4f53-8a0b-a662276262b1.jpg.webp
+17.496 seconds # 0.172 seconds ## file manga/one-piece/0004/003.webp was succesfully saved
+17.738 seconds # 0.242 seconds ## 4 https://littlexgarden.com/static/images/webp/0c63c344-1ac1-452e-9fcb-d243d20bca00.jpg.webp
+17.852 seconds # 0.114 seconds ## file manga/one-piece/0004/004.webp was succesfully saved
+18.084 seconds # 0.232 seconds ## 5 https://littlexgarden.com/static/images/webp/036f56bb-7fab-44fe-bcee-ae54c3d4b9af.jpg.webp
+18.282 seconds # 0.198 seconds ## file manga/one-piece/0004/005.webp was succesfully saved
+18.522 seconds # 0.24 seconds ## 6 https://littlexgarden.com/static/images/webp/83e88e84-8131-44db-9f3e-7de8e41fd3b8.jpg.webp
+18.62 seconds # 0.098 seconds ## file manga/one-piece/0004/006.webp was succesfully saved
+18.855 seconds # 0.235 seconds ## 7 https://littlexgarden.com/static/images/webp/3149d8e6-030c-4a25-adf3-5ed9d978a42c.jpg.webp
+19.063 seconds # 0.208 seconds ## file manga/one-piece/0004/007.webp was succesfully saved
+19.306 seconds # 0.243 seconds ## 8 https://littlexgarden.com/static/images/webp/9b5aecba-a949-4b58-b7b8-fa49efa3e32f.jpg.webp
+19.47 seconds # 0.164 seconds ## file manga/one-piece/0004/008.webp was succesfully saved
+19.705 seconds # 0.235 seconds ## 9 https://littlexgarden.com/static/images/webp/16841a14-0805-4645-85e3-82db7f26cb60.jpg.webp
+19.995 seconds # 0.29 seconds ## file manga/one-piece/0004/009.webp was succesfully saved
+20.24 seconds # 0.245 seconds ## 10 https://littlexgarden.com/static/images/webp/4d8becf8-147b-46db-b12c-7f8bf087f567.jpg.webp
+20.539 seconds # 0.299 seconds ## file manga/one-piece/0004/010.webp was succesfully saved
+20.788 seconds # 0.249 seconds ## 11 https://littlexgarden.com/static/images/webp/29895757-5611-4eaa-8835-24b6af045d36.jpg.webp
+20.932 seconds # 0.144 seconds ## file manga/one-piece/0004/011.webp was succesfully saved
+21.22 seconds # 0.288 seconds ## 12 https://littlexgarden.com/static/images/webp/fd5a2634-34f5-4ea3-abbb-90d03dca6684.jpg.webp
+21.442 seconds # 0.222 seconds ## file manga/one-piece/0004/012.webp was succesfully saved
+21.678 seconds # 0.236 seconds ## 13 https://littlexgarden.com/static/images/webp/a92b8fb6-3f6b-4a4f-b760-72fca647e15c.jpg.webp
+21.882 seconds # 0.204 seconds ## file manga/one-piece/0004/013.webp was succesfully saved
+22.122 seconds # 0.24 seconds ## 14 https://littlexgarden.com/static/images/webp/87768bea-ff94-4f06-82e6-8d85e6d35858.jpg.webp
+22.243 seconds # 0.121 seconds ## file manga/one-piece/0004/014.webp was succesfully saved
+22.487 seconds # 0.244 seconds ## 15 https://littlexgarden.com/static/images/webp/5e88f1d1-18ba-41c2-8a3f-72a63836fa71.jpg.webp
+22.626 seconds # 0.139 seconds ## file manga/one-piece/0004/015.webp was succesfully saved
+22.906 seconds # 0.28 seconds ## 16 https://littlexgarden.com/static/images/webp/4a6568b8-6967-4d46-bcb8-b1b9057b750e.jpg.webp
+23.171 seconds # 0.265 seconds ## file manga/one-piece/0004/016.webp was succesfully saved
+23.411 seconds # 0.24 seconds ## 17 https://littlexgarden.com/static/images/webp/b1c9aa3d-56cf-4889-827a-63543e7b9594.jpg.webp
+23.719 seconds # 0.308 seconds ## file manga/one-piece/0004/017.webp was succesfully saved
+23.976 seconds # 0.257 seconds ## 18 https://littlexgarden.com/static/images/webp/6a9b9ba8-8abc-40eb-95ed-b3831b69dcff.jpg.webp
+24.105 seconds # 0.129 seconds ## file manga/one-piece/0004/018.webp was succesfully saved
+24.37 seconds # 0.265 seconds ## 19 https://littlexgarden.com/static/images/webp/61ee8e76-0a56-4b43-acb0-c654c391ba8b.jpg.webp
+24.642 seconds # 0.272 seconds ## file manga/one-piece/0004/019.webp was succesfully saved
+24.903 seconds # 0.261 seconds ## 20 https://littlexgarden.com/static/images/webp/5db8df98-be7e-4cfa-98cb-7f41244f80a2.jpg.webp
+24.994 seconds # 0.091 seconds ## file manga/one-piece/0004/020.webp was succesfully saved
+25.081 seconds # 0.087 seconds ## 20 images downloaded for chapter 4
+28.426 seconds # 3.345 seconds ## 1 https://littlexgarden.com/static/images/webp/8c623359-32fa-4bcd-b656-d0749d53dec3.jpg.webp
+28.687 seconds # 0.261 seconds ## file manga/one-piece/0005/001.webp was succesfully saved
+28.93 seconds # 0.243 seconds ## 2 https://littlexgarden.com/static/images/webp/dcde5c9a-3ad3-45c7-b5f8-f0868291dc5b.jpg.webp
+29.053 seconds # 0.123 seconds ## file manga/one-piece/0005/002.webp was succesfully saved
+29.308 seconds # 0.255 seconds ## 3 https://littlexgarden.com/static/images/webp/dca33f0e-a22a-41b9-b66e-cbaeb80348e7.jpg.webp
+29.501 seconds # 0.193 seconds ## file manga/one-piece/0005/003.webp was succesfully saved
+29.74 seconds # 0.239 seconds ## 4 https://littlexgarden.com/static/images/webp/2125c186-5a43-4a0e-b0d6-9d9b9e491991.jpg.webp
+29.945 seconds # 0.205 seconds ## file manga/one-piece/0005/004.webp was succesfully saved
+30.203 seconds # 0.258 seconds ## 5 https://littlexgarden.com/static/images/webp/d7e668de-3ea4-4a44-b53c-5d04fcdd8c21.jpg.webp
+30.475 seconds # 0.272 seconds ## file manga/one-piece/0005/005.webp was succesfully saved
+30.724 seconds # 0.249 seconds ## 6 https://littlexgarden.com/static/images/webp/22e5659a-5541-41e4-93b6-0ba247b2a1c3.jpg.webp
+30.839 seconds # 0.115 seconds ## file manga/one-piece/0005/006.webp was succesfully saved
+31.073 seconds # 0.234 seconds ## 7 https://littlexgarden.com/static/images/webp/fe81b3f3-dee2-4ea5-9a2b-ef10905b5703.jpg.webp
+31.338 seconds # 0.265 seconds ## file manga/one-piece/0005/007.webp was succesfully saved
+31.572 seconds # 0.234 seconds ## 8 https://littlexgarden.com/static/images/webp/a2e6b091-38cb-4d70-8f09-9976c09a21ce.jpg.webp
+31.844 seconds # 0.272 seconds ## file manga/one-piece/0005/008.webp was succesfully saved
+32.104 seconds # 0.26 seconds ## 9 https://littlexgarden.com/static/images/webp/ad72862c-4df2-407d-aa91-99809f941d09.jpg.webp
+32.407 seconds # 0.303 seconds ## file manga/one-piece/0005/009.webp was succesfully saved
+32.64 seconds # 0.233 seconds ## 10 https://littlexgarden.com/static/images/webp/9c49ff2d-cf4c-4710-84b4-9ace788295a3.jpg.webp
+32.739 seconds # 0.099 seconds ## file manga/one-piece/0005/010.webp was succesfully saved
+32.982 seconds # 0.243 seconds ## 11 https://littlexgarden.com/static/images/webp/bd555635-385c-46d5-a150-bf969c3e2646.jpg.webp
+33.075 seconds # 0.093 seconds ## file manga/one-piece/0005/011.webp was succesfully saved
+33.432 seconds # 0.357 seconds ## 12 https://littlexgarden.com/static/images/webp/2a08a443-e84f-4fb5-854b-b6adc3aa737d.jpg.webp
+33.544 seconds # 0.112 seconds ## file manga/one-piece/0005/012.webp was succesfully saved
+33.78 seconds # 0.236 seconds ## 13 https://littlexgarden.com/static/images/webp/50a27752-db52-4af8-9c07-39a82fe53a7f.jpg.webp
+33.949 seconds # 0.169 seconds ## file manga/one-piece/0005/013.webp was succesfully saved
+34.192 seconds # 0.243 seconds ## 14 https://littlexgarden.com/static/images/webp/7ba920fd-ef9e-4fe4-95f6-7fdd68dd5f17.jpg.webp
+34.299 seconds # 0.107 seconds ## file manga/one-piece/0005/014.webp was succesfully saved
+34.533 seconds # 0.234 seconds ## 15 https://littlexgarden.com/static/images/webp/9287a42e-277c-4134-ba53-c04526aa4c2c.jpg.webp
+34.641 seconds # 0.108 seconds ## file manga/one-piece/0005/015.webp was succesfully saved
+34.882 seconds # 0.241 seconds ## 16 https://littlexgarden.com/static/images/webp/20512a50-79f6-43fb-831c-92add83ae24f.jpg.webp
+35.174 seconds # 0.292 seconds ## file manga/one-piece/0005/016.webp was succesfully saved
+35.42 seconds # 0.246 seconds ## 17 https://littlexgarden.com/static/images/webp/905909f1-de1f-4ed3-bc33-f136e17f590b.jpg.webp
+35.523 seconds # 0.103 seconds ## file manga/one-piece/0005/017.webp was succesfully saved
+35.837 seconds # 0.313 seconds ## 18 https://littlexgarden.com/static/images/webp/3b8f6539-31de-4a04-bb40-11cf8410de04.jpg.webp
+35.939 seconds # 0.102 seconds ## file manga/one-piece/0005/018.webp was succesfully saved
+36.184 seconds # 0.245 seconds ## 19 https://littlexgarden.com/static/images/webp/f704d950-ef6d-4107-b68f-6ec11c469d9b.jpg.webp
+36.394 seconds # 0.21 seconds ## file manga/one-piece/0005/019.webp was succesfully saved
+36.632 seconds # 0.238 seconds ## 20 https://littlexgarden.com/static/images/webp/202c0891-549c-4ed8-8532-567bddbe7904.jpg.webp
+36.725 seconds # 0.093 seconds ## file manga/one-piece/0005/020.webp was succesfully saved
+36.796 seconds # 0.071 seconds ## 20 images downloaded for chapter 5
+38.926 seconds # 2.13 seconds ## 1 https://littlexgarden.com/static/images/webp/b4aef0fe-5dd4-40d1-98e1-67e0066cc9d8.jpg.webp
+39.024 seconds # 0.098 seconds ## file manga/one-piece/0006/001.webp was succesfully saved
+39.271 seconds # 0.247 seconds ## 2 https://littlexgarden.com/static/images/webp/01914ed0-d4c8-47fa-9453-6c9844a94bc1.jpg.webp
+39.544 seconds # 0.273 seconds ## file manga/one-piece/0006/002.webp was succesfully saved
+39.791 seconds # 0.247 seconds ## 3 https://littlexgarden.com/static/images/webp/65f4760e-f1b5-43d5-bceb-05fca6b5e435.jpg.webp
+39.913 seconds # 0.122 seconds ## file manga/one-piece/0006/003.webp was succesfully saved
+40.155 seconds # 0.242 seconds ## 4 https://littlexgarden.com/static/images/webp/d91e3aff-6d06-4918-a566-d8ed21027b70.jpg.webp
+40.281 seconds # 0.126 seconds ## file manga/one-piece/0006/004.webp was succesfully saved
+40.554 seconds # 0.273 seconds ## 5 https://littlexgarden.com/static/images/webp/d150867c-8d38-488a-806e-2b2d03103330.jpg.webp
+40.738 seconds # 0.184 seconds ## file manga/one-piece/0006/005.webp was succesfully saved
+41.073 seconds # 0.335 seconds ## 6 https://littlexgarden.com/static/images/webp/d5bf89e0-1a48-45d6-98e3-9b49552ccfe5.jpg.webp
+41.203 seconds # 0.13 seconds ## file manga/one-piece/0006/006.webp was succesfully saved
+41.439 seconds # 0.236 seconds ## 7 https://littlexgarden.com/static/images/webp/7215d1e2-7d02-4781-a32c-e1d7e6ad2281.jpg.webp
+41.542 seconds # 0.103 seconds ## file manga/one-piece/0006/007.webp was succesfully saved
+41.795 seconds # 0.253 seconds ## 8 https://littlexgarden.com/static/images/webp/47ac8dd4-8de1-4b1c-8412-21bed5ef2f55.jpg.webp
+42.287 seconds # 0.492 seconds ## file manga/one-piece/0006/008.webp was succesfully saved
+42.74 seconds # 0.453 seconds ## 9 https://littlexgarden.com/static/images/webp/56ca5bf8-ee0b-49fc-bd26-2a19fb4e2cf9.jpg.webp
+42.978 seconds # 0.238 seconds ## file manga/one-piece/0006/009.webp was succesfully saved
+43.238 seconds # 0.26 seconds ## 10 https://littlexgarden.com/static/images/webp/2b98bff1-faae-460d-a829-8f2daf6c293f.jpg.webp
+43.337 seconds # 0.099 seconds ## file manga/one-piece/0006/010.webp was succesfully saved
+43.583 seconds # 0.246 seconds ## 11 https://littlexgarden.com/static/images/webp/2e094660-7cc4-468a-86f5-d4714b121c9c.jpg.webp
+43.676 seconds # 0.093 seconds ## file manga/one-piece/0006/011.webp was succesfully saved
+43.978 seconds # 0.302 seconds ## 12 https://littlexgarden.com/static/images/webp/ef2df976-8eb6-4441-affd-2fea5b721209.jpg.webp
+44.281 seconds # 0.303 seconds ## file manga/one-piece/0006/012.webp was succesfully saved
+44.539 seconds # 0.258 seconds ## 13 https://littlexgarden.com/static/images/webp/bb9724f0-ae85-4c0c-bbb6-ea9e677e473a.jpg.webp
+44.645 seconds # 0.106 seconds ## file manga/one-piece/0006/013.webp was succesfully saved
+44.886 seconds # 0.241 seconds ## 14 https://littlexgarden.com/static/images/webp/f08c1e6c-9c90-492d-a7b9-9f6e87911ba7.jpg.webp
+44.997 seconds # 0.111 seconds ## file manga/one-piece/0006/014.webp was succesfully saved
+45.271 seconds # 0.274 seconds ## 15 https://littlexgarden.com/static/images/webp/a5c20a35-862f-4af7-b652-7f16facd6c84.jpg.webp
+45.489 seconds # 0.218 seconds ## file manga/one-piece/0006/015.webp was succesfully saved
+45.726 seconds # 0.237 seconds ## 16 https://littlexgarden.com/static/images/webp/032ccdc6-cbdc-4a3c-99a1-df83e67e74f2.jpg.webp
+45.833 seconds # 0.107 seconds ## file manga/one-piece/0006/016.webp was succesfully saved
+46.106 seconds # 0.273 seconds ## 17 https://littlexgarden.com/static/images/webp/e8ed5253-855e-48fe-9e5c-1e6408b02a66.jpg.webp
+46.399 seconds # 0.293 seconds ## file manga/one-piece/0006/017.webp was succesfully saved
+46.645 seconds # 0.246 seconds ## 18 https://littlexgarden.com/static/images/webp/dc0683e1-3a9d-4541-a96d-58a27b8c5202.jpg.webp
+46.747 seconds # 0.102 seconds ## file manga/one-piece/0006/018.webp was succesfully saved
+47.138 seconds # 0.391 seconds ## 19 https://littlexgarden.com/static/images/webp/c29dc5e1-088b-48bb-aabe-61c701eb44c4.jpg.webp
+47.461 seconds # 0.323 seconds ## file manga/one-piece/0006/019.webp was succesfully saved
+47.712 seconds # 0.251 seconds ## 20 https://littlexgarden.com/static/images/webp/423add45-b87d-4245-95b7-901f973fe861.jpg.webp
+47.965 seconds # 0.253 seconds ## file manga/one-piece/0006/020.webp was succesfully saved
+48.214 seconds # 0.249 seconds ## 21 https://littlexgarden.com/static/images/webp/d44e4303-29f7-4ad7-902a-e9038ff42509.jpg.webp
+48.328 seconds # 0.114 seconds ## file manga/one-piece/0006/021.webp was succesfully saved
+48.564 seconds # 0.236 seconds ## 22 https://littlexgarden.com/static/images/webp/d51ae8d1-4d6c-42d1-95ef-8fd295edab6e.jpg.webp
+48.767 seconds # 0.203 seconds ## file manga/one-piece/0006/022.webp was succesfully saved
+48.85 seconds # 0.083 seconds ## 22 images downloaded for chapter 6
+51.108 seconds # 2.258 seconds ## 1 https://littlexgarden.com/static/images/webp/dde1ce76-f6e3-4749-93a1-936ab5eb0daa.jpg.webp
+51.231 seconds # 0.123 seconds ## file manga/one-piece/0007/001.webp was succesfully saved
+51.506 seconds # 0.275 seconds ## 2 https://littlexgarden.com/static/images/webp/43a06129-8de2-4911-a0a9-67e785adf5c2.jpg.webp
+51.634 seconds # 0.128 seconds ## file manga/one-piece/0007/002.webp was succesfully saved
+51.894 seconds # 0.26 seconds ## 3 https://littlexgarden.com/static/images/webp/459c104b-d372-435b-b8a5-9ec7bac99c9c.jpg.webp
+52.146 seconds # 0.252 seconds ## file manga/one-piece/0007/003.webp was succesfully saved
+52.422 seconds # 0.276 seconds ## 4 https://littlexgarden.com/static/images/webp/566eaf09-e74c-4b82-8d16-7649be69c12c.jpg.webp
+52.865 seconds # 0.443 seconds ## file manga/one-piece/0007/004.webp was succesfully saved
+53.115 seconds # 0.25 seconds ## 5 https://littlexgarden.com/static/images/webp/2d9d1d4a-18f4-4103-89fb-e28116100f84.jpg.webp
+53.388 seconds # 0.273 seconds ## file manga/one-piece/0007/005.webp was succesfully saved
+53.708 seconds # 0.32 seconds ## 6 https://littlexgarden.com/static/images/webp/dd2e084b-927b-411f-827f-0016bba597e0.jpg.webp
+54.011 seconds # 0.303 seconds ## file manga/one-piece/0007/006.webp was succesfully saved
+54.278 seconds # 0.267 seconds ## 7 https://littlexgarden.com/static/images/webp/1b405bad-0faf-49f5-a76a-393cf1a4bc2d.jpg.webp
+54.592 seconds # 0.314 seconds ## file manga/one-piece/0007/007.webp was succesfully saved
+54.979 seconds # 0.387 seconds ## 8 https://littlexgarden.com/static/images/webp/79e51983-d612-4c26-8377-b16a204b5a15.jpg.webp
+55.092 seconds # 0.113 seconds ## file manga/one-piece/0007/008.webp was succesfully saved
+55.353 seconds # 0.261 seconds ## 9 https://littlexgarden.com/static/images/webp/5afc1a13-851a-4994-9c9d-0a6beeccc5c5.jpg.webp
+55.539 seconds # 0.186 seconds ## file manga/one-piece/0007/009.webp was succesfully saved
+55.791 seconds # 0.252 seconds ## 10 https://littlexgarden.com/static/images/webp/2a8aae79-9170-4dca-8bc9-bfdddf2628cd.jpg.webp
+56.196 seconds # 0.405 seconds ## file manga/one-piece/0007/010.webp was succesfully saved
+56.456 seconds # 0.26 seconds ## 11 https://littlexgarden.com/static/images/webp/2538f565-cf9a-4862-bf81-1de87af785c9.jpg.webp
+56.702 seconds # 0.246 seconds ## file manga/one-piece/0007/011.webp was succesfully saved
+57.062 seconds # 0.36 seconds ## 12 https://littlexgarden.com/static/images/webp/d484c801-0120-453f-a687-1b28d51ab1c7.jpg.webp
+57.19 seconds # 0.128 seconds ## file manga/one-piece/0007/012.webp was succesfully saved
+57.444 seconds # 0.254 seconds ## 13 https://littlexgarden.com/static/images/webp/9dbdb83c-363b-4035-91ef-e1fc211f3e2a.jpg.webp
+57.557 seconds # 0.113 seconds ## file manga/one-piece/0007/013.webp was succesfully saved
+57.854 seconds # 0.297 seconds ## 14 https://littlexgarden.com/static/images/webp/566cd794-fb1f-4c6c-b3e5-1588fe37efc7.jpg.webp
+58.177 seconds # 0.323 seconds ## file manga/one-piece/0007/014.webp was succesfully saved
+58.447 seconds # 0.27 seconds ## 15 https://littlexgarden.com/static/images/webp/c5190fd8-e288-45ba-b869-40754d385237.jpg.webp
+58.879 seconds # 0.432 seconds ## file manga/one-piece/0007/015.webp was succesfully saved
+59.145 seconds # 0.265 seconds ## 16 https://littlexgarden.com/static/images/webp/8b411bf6-a41b-43d9-bd97-62494310adeb.jpg.webp
+59.449 seconds # 0.304 seconds ## file manga/one-piece/0007/016.webp was succesfully saved
+59.692 seconds # 0.243 seconds ## 17 https://littlexgarden.com/static/images/webp/6c0190ff-2b53-43a5-8d07-1c74c7d327a7.jpg.webp
+59.978 seconds # 0.286 seconds ## file manga/one-piece/0007/017.webp was succesfully saved
+60.232 seconds # 0.254 seconds ## 18 https://littlexgarden.com/static/images/webp/7523417e-e85c-4430-9786-3afe0d320178.jpg.webp
+60.46 seconds # 0.228 seconds ## file manga/one-piece/0007/018.webp was succesfully saved
+60.7 seconds # 0.24 seconds ## 19 https://littlexgarden.com/static/images/webp/4b6432b2-82a8-4f88-bc53-89b66df22f72.jpg.webp
+60.828 seconds # 0.128 seconds ## file manga/one-piece/0007/019.webp was succesfully saved
+61.065 seconds # 0.237 seconds ## 20 https://littlexgarden.com/static/images/webp/6c025bf8-1ea6-4dbd-97f1-2bea5fc4cb5c.jpg.webp
+61.399 seconds # 0.334 seconds ## file manga/one-piece/0007/020.webp was succesfully saved
+61.656 seconds # 0.257 seconds ## 21 https://littlexgarden.com/static/images/webp/d480f578-c41b-49a5-b754-690cb4f75125.jpg.webp
+61.855 seconds # 0.199 seconds ## file manga/one-piece/0007/021.webp was succesfully saved
+61.945 seconds # 0.09 seconds ## 21 images downloaded for chapter 7
+64.206 seconds # 2.261 seconds ## 1 https://littlexgarden.com/static/images/webp/f63a260a-4759-4daf-b5c6-d4b9d0270ba1.jpg.webp
+64.324 seconds # 0.118 seconds ## file manga/one-piece/0008/001.webp was succesfully saved
+64.585 seconds # 0.261 seconds ## 2 https://littlexgarden.com/static/images/webp/639efec1-a74e-4272-82a0-523abb13cafc.jpg.webp
+64.828 seconds # 0.243 seconds ## file manga/one-piece/0008/002.webp was succesfully saved
+65.148 seconds # 0.32 seconds ## 3 https://littlexgarden.com/static/images/webp/71a59117-8f57-4fc3-a228-38db1fbd6d50.jpg.webp
+65.451 seconds # 0.303 seconds ## file manga/one-piece/0008/003.webp was succesfully saved
+65.792 seconds # 0.341 seconds ## 4 https://littlexgarden.com/static/images/webp/8faf5760-2dd2-489e-ae22-74f2aa3ad9c7.jpg.webp
+65.894 seconds # 0.102 seconds ## file manga/one-piece/0008/004.webp was succesfully saved
+66.145 seconds # 0.251 seconds ## 5 https://littlexgarden.com/static/images/webp/e0f2f723-988c-4b66-9bc4-4048fce55b93.jpg.webp
+66.286 seconds # 0.141 seconds ## file manga/one-piece/0008/005.webp was succesfully saved
+66.537 seconds # 0.251 seconds ## 6 https://littlexgarden.com/static/images/webp/67a38734-1324-4d59-8442-3a7f8e19e523.jpg.webp
+66.763 seconds # 0.226 seconds ## file manga/one-piece/0008/006.webp was succesfully saved
+67.08 seconds # 0.317 seconds ## 7 https://littlexgarden.com/static/images/webp/34e1f5e2-c95d-44f1-9f91-6383bb6a4f77.jpg.webp
+67.184 seconds # 0.104 seconds ## file manga/one-piece/0008/007.webp was succesfully saved
+67.419 seconds # 0.235 seconds ## 8 https://littlexgarden.com/static/images/webp/cc7b0877-0628-4afd-9380-58acc38da0e4.jpg.webp
+67.775 seconds # 0.356 seconds ## file manga/one-piece/0008/008.webp was succesfully saved
+68.024 seconds # 0.249 seconds ## 9 https://littlexgarden.com/static/images/webp/269c3032-1e31-4fa2-a8e8-02d3a5b797df.jpg.webp
+68.197 seconds # 0.173 seconds ## file manga/one-piece/0008/009.webp was succesfully saved
+68.47 seconds # 0.273 seconds ## 10 https://littlexgarden.com/static/images/webp/5b8d92bd-9d6d-4801-bb2e-0b90ac711d9c.jpg.webp
+68.696 seconds # 0.226 seconds ## file manga/one-piece/0008/010.webp was succesfully saved
+68.953 seconds # 0.257 seconds ## 11 https://littlexgarden.com/static/images/webp/2ba23c51-9fd8-4a28-b25c-a3b549ff5db3.jpg.webp
+69.226 seconds # 0.273 seconds ## file manga/one-piece/0008/011.webp was succesfully saved
+69.503 seconds # 0.277 seconds ## 12 https://littlexgarden.com/static/images/webp/0e67b724-e8cc-4aaa-9258-3043307a3881.jpg.webp
+69.749 seconds # 0.246 seconds ## file manga/one-piece/0008/012.webp was succesfully saved
+69.991 seconds # 0.242 seconds ## 13 https://littlexgarden.com/static/images/webp/2528ee14-dd37-419c-9e0a-3f59f8d0a6da.jpg.webp
+70.103 seconds # 0.112 seconds ## file manga/one-piece/0008/013.webp was succesfully saved
+70.342 seconds # 0.239 seconds ## 14 https://littlexgarden.com/static/images/webp/2eebaacc-32fa-4929-9357-cd2b1690b698.jpg.webp
+70.687 seconds # 0.345 seconds ## file manga/one-piece/0008/014.webp was succesfully saved
+70.931 seconds # 0.244 seconds ## 15 https://littlexgarden.com/static/images/webp/4a20e8be-8fd7-44ce-9e40-bd68637f2075.jpg.webp
+71.028 seconds # 0.097 seconds ## file manga/one-piece/0008/015.webp was succesfully saved
+71.263 seconds # 0.235 seconds ## 16 https://littlexgarden.com/static/images/webp/5ff0773c-36dc-4673-aad3-3d2afc2ee432.jpg.webp
+71.435 seconds # 0.172 seconds ## file manga/one-piece/0008/016.webp was succesfully saved
+71.68 seconds # 0.245 seconds ## 17 https://littlexgarden.com/static/images/webp/a51014ef-7385-42ec-9f01-703ac84beb42.jpg.webp
+71.787 seconds # 0.107 seconds ## file manga/one-piece/0008/017.webp was succesfully saved
+72.066 seconds # 0.279 seconds ## 18 https://littlexgarden.com/static/images/webp/dc297df5-79a4-491d-9b2a-eaedc4f7d3a6.jpg.webp
+72.241 seconds # 0.175 seconds ## file manga/one-piece/0008/018.webp was succesfully saved
+72.462 seconds # 0.221 seconds ## 19 https://littlexgarden.com/static/images/webp/54f701ce-4f9a-4b2f-b8ae-6ed59d402ccf.jpg.webp
+72.566 seconds # 0.104 seconds ## file manga/one-piece/0008/019.webp was succesfully saved
+72.652 seconds # 0.086 seconds ## 19 images downloaded for chapter 8
+74.984 seconds # 2.332 seconds ## 1 https://littlexgarden.com/static/images/webp/16fbd3c5-490c-44f9-97bb-fd36411cdfcc.jpg.webp
+75.291 seconds # 0.307 seconds ## file manga/one-piece/0009/001.webp was succesfully saved
+75.544 seconds # 0.253 seconds ## 2 https://littlexgarden.com/static/images/webp/3dca105f-60b0-4471-8342-02604d757e4e.jpg.webp
+75.746 seconds # 0.202 seconds ## file manga/one-piece/0009/002.webp was succesfully saved
+75.99 seconds # 0.244 seconds ## 3 https://littlexgarden.com/static/images/webp/1c434c66-20b0-4c71-8285-90bda15887f5.jpg.webp
+76.23 seconds # 0.24 seconds ## file manga/one-piece/0009/003.webp was succesfully saved
+76.488 seconds # 0.258 seconds ## 4 https://littlexgarden.com/static/images/webp/e7ecb354-63b4-429f-97e6-e47fc124f82f.jpg.webp
+76.785 seconds # 0.297 seconds ## file manga/one-piece/0009/004.webp was succesfully saved
+77.047 seconds # 0.262 seconds ## 5 https://littlexgarden.com/static/images/webp/642bff3a-5275-4c76-83f2-c1e183581f15.jpg.webp
+77.146 seconds # 0.099 seconds ## file manga/one-piece/0009/005.webp was succesfully saved
+77.402 seconds # 0.256 seconds ## 6 https://littlexgarden.com/static/images/webp/d553b737-6088-4f53-b998-c46e75aa7234.jpg.webp
+77.53 seconds # 0.128 seconds ## file manga/one-piece/0009/006.webp was succesfully saved
+77.787 seconds # 0.257 seconds ## 7 https://littlexgarden.com/static/images/webp/4975cca4-7b38-4c31-823c-4864c79bf9bf.jpg.webp
+78.19 seconds # 0.403 seconds ## file manga/one-piece/0009/007.webp was succesfully saved
+78.471 seconds # 0.281 seconds ## 8 https://littlexgarden.com/static/images/webp/f751816f-6573-4af4-ab2f-4c475be3a6f6.jpg.webp
+78.597 seconds # 0.126 seconds ## file manga/one-piece/0009/008.webp was succesfully saved
+78.836 seconds # 0.239 seconds ## 9 https://littlexgarden.com/static/images/webp/d72420e3-40a4-4e04-8d94-f7b05f9642dc.jpg.webp
+79.091 seconds # 0.255 seconds ## file manga/one-piece/0009/009.webp was succesfully saved
+79.358 seconds # 0.267 seconds ## 10 https://littlexgarden.com/static/images/webp/e5b51255-c23a-4b4a-8028-b4e935c7c05d.jpg.webp
+79.475 seconds # 0.117 seconds ## file manga/one-piece/0009/010.webp was succesfully saved
+79.722 seconds # 0.247 seconds ## 11 https://littlexgarden.com/static/images/webp/2f90841a-c432-4bbc-a130-b188c9c11f69.jpg.webp
+80.012 seconds # 0.29 seconds ## file manga/one-piece/0009/011.webp was succesfully saved
+80.255 seconds # 0.243 seconds ## 12 https://littlexgarden.com/static/images/webp/2125fac9-5313-436c-9784-edb6e7365b08.jpg.webp
+80.474 seconds # 0.219 seconds ## file manga/one-piece/0009/012.webp was succesfully saved
+80.721 seconds # 0.247 seconds ## 13 https://littlexgarden.com/static/images/webp/c2f47e7f-c1be-492e-88d8-4a26d3a08101.jpg.webp
+80.835 seconds # 0.114 seconds ## file manga/one-piece/0009/013.webp was succesfully saved
+81.069 seconds # 0.234 seconds ## 14 https://littlexgarden.com/static/images/webp/9c8e9d53-5d80-46ea-9f67-f5f5e74a90a0.jpg.webp
+81.286 seconds # 0.217 seconds ## file manga/one-piece/0009/014.webp was succesfully saved
+81.607 seconds # 0.321 seconds ## 15 https://littlexgarden.com/static/images/webp/752fadb5-cfc0-492d-b5c7-bbc2ebfd0bb0.jpg.webp
+81.723 seconds # 0.116 seconds ## file manga/one-piece/0009/015.webp was succesfully saved
+81.974 seconds # 0.251 seconds ## 16 https://littlexgarden.com/static/images/webp/8e50a751-fb5d-499a-867e-546dad3cfee6.jpg.webp
+82.093 seconds # 0.119 seconds ## file manga/one-piece/0009/016.webp was succesfully saved
+82.338 seconds # 0.245 seconds ## 17 https://littlexgarden.com/static/images/webp/88b78fd5-ef55-4506-bcf3-101c044e5ef6.jpg.webp
