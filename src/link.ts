@@ -1,6 +1,6 @@
+import fs from "fs";
 import { join } from "path/posix";
 import { toNDigits } from "./utils";
-import fs from "fs";
 
 export const website = "https://littlexgarden.com/";
 
@@ -18,6 +18,10 @@ export function getFolder(manga: string, chapter: number) {
 export function getFilename(manga: string, chapter: number, page: number) {
   const filename = toNDigits(page, 3) + ".webp";
   return join(getFolder(manga, chapter), filename);
+}
+
+export function getCbz(manga: string, chapter: number) {
+  return `manga/${manga}/${manga}-chapitre-${toNDigits(chapter, 4)}.cbz`;
 }
 
 export function getFilenameAndMakePath(

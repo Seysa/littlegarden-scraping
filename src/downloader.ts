@@ -1,8 +1,10 @@
+import { rm, writeFile } from "fs/promises";
 import { Browser } from "puppeteer-core";
 import { navigateToMangaPage } from "./browser";
 import { getCurrentImageSrc, getNumberOfPagesOfChapter } from "./extract";
-import { getFilenameAndMakePath } from "./link";
-import { writeFile } from "fs/promises";
+import { getFilenameAndMakePath, getFolder } from "./link";
+import { log } from "./logging";
+import { zipManga } from "./zipper";
 
 export async function downloadChapter(
   browser: Browser,
@@ -30,7 +32,7 @@ export async function downloadChapter(
   // < pages because last page is not an image
   for (; currentPageNumber < pages; currentPageNumber++) {
     const src = await getCurrentImageSrc(page);
-    console.log(currentPageNumber, src);
+    log(currentPageNumber, src);
     await downloadImage(
       browser,
       src,
@@ -39,6 +41,8 @@ export async function downloadChapter(
     srcs.push(src);
     await nextPageButton.click();
   }
+  await zipManga(manga, chapter);
+  rm(getFolder(manga, chapter), { recursive: true });
   return srcs;
 }
 
@@ -54,7 +58,7 @@ export async function downloadImage(
   }
   try {
     await writeFile(filename, await viewSource.buffer());
-    console.log("file", filename, "was succesfully saved");
+    log("file", filename, "was succesfully saved");
   } catch (e) {
     console.error("error during the download of", filename, ":", e);
   } finally {

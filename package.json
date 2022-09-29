@@ -8,9 +8,12 @@
     "start": "yarn compile && node js"
   },
   "devDependencies": {
+    "@types/archiver": "^5.3.1",
+    "dotenv": "^16.0.2",
     "typescript": "^4.5.5"
   },
   "dependencies": {
+    "archiver": "^5.3.1",
     "puppeteer-core": "^18.0.5"
   }
 }

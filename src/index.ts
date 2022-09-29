@@ -1,21 +1,30 @@
+import { config } from "dotenv";
 import puppeteer from "puppeteer-core";
 import { blockNotifications } from "./browser";
 import { downloadChapter } from "./downloader";
+import { log } from "./logging";
 
-console.log("--- Starting");
+config();
+if (!process.env.CHROME) {
+  throw new Error("No chrome specified in .env file");
+}
+log(process.env.CHROME);
+log("--- Starting");
 main();
+log("--- Done");
 
 async function main() {
   const browser = await puppeteer.launch({
     headless: true,
     defaultViewport: null,
-    executablePath:
-      "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    executablePath: process.env.CHROME,
   });
   blockNotifications(browser);
-  console.log("--- Browser instanciated");
+  log("--- Browser instanciated");
 
-  const srcs = await downloadChapter(browser, "one-piece", 2);
-  console.log(srcs);
+  for (let i = 3; i <= 10; i++) {
+    const srcs = await downloadChapter(browser, "one-piece", i);
+    log(srcs.length, "images downloaded for chapter", i);
+  }
   await browser.close();
 }
