@@ -22,9 +22,8 @@ async function main() {
   blockNotifications(browser);
   log("--- Browser instanciated");
 
-  for (let i = 3; i <= 10; i++) {
-    const srcs = await downloadChapter(browser, "one-piece", i);
-    log(srcs.length, "images downloaded for chapter", i);
-  }
+  const i = 1;
+  const srcs = await downloadChapter(browser, "one-piece", i);
+  log(srcs.length, "images downloaded for chapter", i);
   await browser.close();
 }

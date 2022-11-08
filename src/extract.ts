@@ -29,7 +29,7 @@ export function getImagesFromPage(page: Page) {
   return new Promise((resolve) => {
     // create loop that runs every 200 ms
     const interval = setInterval(async () => {
-      let images = [];
+      let images: string[] = [];
       const getImagesSrc = () => {
         const sources: string[] = [];
         const imgs = document.querySelectorAll("img");

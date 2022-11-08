@@ -4,7 +4,9 @@ import { navigateToMangaPage } from "./browser";
 import { getCurrentImageSrc, getNumberOfPagesOfChapter } from "./extract";
 import { getFilenameAndMakePath, getFolder } from "./link";
 import { log } from "./logging";
+import { convertWebpToPng } from "./utils";
 import { zipManga } from "./zipper";
+
 
 export async function downloadChapter(
   browser: Browser,
@@ -58,7 +60,7 @@ export async function downloadImage(
   }
   try {
     await writeFile(filename, await viewSource.buffer());
-    log("file", filename, "was succesfully saved");
+    await convertWebpToPng(filename);
   } catch (e) {
     console.error("error during the download of", filename, ":", e);
   } finally {
